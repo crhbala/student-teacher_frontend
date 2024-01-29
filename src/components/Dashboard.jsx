@@ -92,17 +92,15 @@ function Dashboard() {
         <div>
           <Link to={"/students"} className="btn">
             <i className="bi bi-person-workspace"></i>
-            <a className="list-group-item list-group-item-action py-2">
-              <span>Students</span>
-            </a>
+              <br />
+              Students
           </Link>
         </div>
         <div>
           <Link to={"/teachers"} className="btn">
             <i className="bi bi-person-video3"></i>
-            <a className="list-group-item list-group-item-action py-2">
-              <span>Teachers</span>
-            </a>
+            <br />
+              Teachers
           </Link>
         </div>
       </div>
